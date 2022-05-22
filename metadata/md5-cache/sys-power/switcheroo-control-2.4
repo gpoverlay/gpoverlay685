@@ -1,0 +1,16 @@
+BDEPEND=gtk-doc? ( dev-util/gtk-doc ) test? ( dev-util/umockdev ) >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install postinst test
+DEPEND=>=dev-libs/glib-2.56.0:2 >=dev-libs/libgudev-232:= sys-apps/systemd
+DESCRIPTION=D-Bus service to check the availability of dual-GPU
+EAPI=8
+HOMEPAGE=https://gitlab.freedesktop.org/hadess/switcheroo-control/
+INHERIT=meson
+IUSE=gtk-doc test
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-libs/glib-2.56.0:2 >=dev-libs/libgudev-232:= sys-apps/systemd
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.freedesktop.org/hadess/switcheroo-control/uploads/accd4a9492979bfd91b587ae7e18d3a2/switcheroo-control-2.4.tar.xz
+_eclasses_=meson	8f48ffde53174aba67239f0da61ac9d3	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	python-utils-r1	5dc84801daa87406aafaf535cb947a64	toolchain-funcs	fd9cde67030b26e479eeadaced488253
+_md5_=44b3b19050bde70a10b4d318bae54014

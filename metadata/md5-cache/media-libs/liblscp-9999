@@ -1,0 +1,12 @@
+BDEPEND=doc? ( app-doc/doxygen ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 dev-vcs/subversion[http(+)] net-misc/rsync
+DEFINED_PHASES=configure install preinst prepare unpack
+DESCRIPTION=C++ library for the Linux Sampler control protocol
+EAPI=7
+HOMEPAGE=https://www.linuxsampler.org
+INHERIT=autotools subversion
+IUSE=doc
+LICENSE=LGPL-2.1
+PROPERTIES=live
+SLOT=0
+_eclasses_=autotools	136117fb43a9bf5598530e9cc642f710	estack	055c42df72f76a4f45ec92b35e83cd56	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	multilib	4fbbbc98f236f1b43acd99476bc3cd85	subversion	dee31e56422214d05644c2a3c900a148	toolchain-funcs	fd9cde67030b26e479eeadaced488253
+_md5_=35becc996fb06f07941564077c4b4ad4
